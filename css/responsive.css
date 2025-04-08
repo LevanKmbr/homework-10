@@ -34,7 +34,8 @@
     margin-top: 33px;
   }
 
-  ..flex-room {
+  .flex-room {
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
   }
@@ -43,6 +44,8 @@
     flex-wrap: wrap;
     max-width: 344px;
     max-height: 455px;
+    text-align: center;
+    margin: 0px auto;
   }
 
   h1 {

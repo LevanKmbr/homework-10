@@ -3,7 +3,6 @@ body {
 }
 .container {
   max-width: 856px;
-  border: 2px solid red;
   margin: 0px auto;
 }
 header {
@@ -140,8 +139,6 @@ p {
 }
 
 .txt-rm {
-  border: 2px solid red;
-  min-width: 474px;
   max-height: 210px;
   margin-left: 18px;
   margin-top: 17px;
@@ -164,4 +161,14 @@ p {
   background-color: #142850;
   color: #ffffff;
   border-radius: 16px;
+}
+
+footer {
+  max-width: 100%;
+  height: 182px;
+  padding-top: 51px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  column-gap: 35px;
 }
