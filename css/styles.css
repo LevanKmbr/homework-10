@@ -15,7 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
   min-height: 60px;
-  padding: 0px 20px;
+  padding: 0px 148px;
 }
 
 .nav-list {
@@ -36,7 +36,47 @@ h1 {
   font-size: 44px;
   font-weight: 700;
   max-width: 410px;
-  border: 2px red solid;
+}
+h2 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #21243d;
+}
+
+.h2-featured {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+}
+
+h3 {
+  margin-top: 17px;
+}
+
+h4 {
+  max-width: 314px;
+  min-height: 117px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243d;
+  margin-top: 11px;
+}
+.h4-faet {
+  max-width: 594px;
+  min-height: 93px;
+}
+h5 {
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+p {
+  max-width: 497px;
+  min-height: 66px;
+  margin-top: 40px;
+  margin-bottom: 38px;
 }
 
 .main-content {
@@ -45,11 +85,82 @@ h1 {
   margin-top: 140px;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 70px;
 }
-button {
-  background-color: tomato;
+.download-button {
+  background-color: #ff6464;
   color: #fff;
   border: none;
-  padding: 10px 18px;
-  font-size: 18px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-bottom: 77px;
+}
+.profile-img {
+  margin-top: -125px;
+  margin-left: -115px;
+}
+
+.recent-posts {
+  padding: 15px 70px;
+  min-height: 396px;
+  min-width: 105px;
+  background-color: #edf7fa;
+}
+
+.text-line {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+
+  font-weight: 400;
+}
+.view-all {
+  font-size: 16px;
+  color: #00a8cc;
+  padding: 20px 10px;
+}
+
+.crd-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-1,
+.card-2 {
+  max-width: 345px;
+  min-height: 295px;
+  padding: 27px 23px;
+  background-color: #ffffff;
+}
+
+.featured-works {
+  padding: 15px 70px;
+}
+
+.txt-rm {
+  border: 2px solid red;
+  min-width: 474px;
+  max-height: 210px;
+  margin-left: 18px;
+  margin-top: 17px;
+}
+.flex-room {
+  display: flex;
+}
+
+.image-1,
+.image-2,
+.image-3 {
+  margin-top: 15px;
+  min-width: 246px;
+  min-height: 180px;
+}
+
+.year-btn {
+  width: 62px;
+  height: 25px;
+  background-color: #142850;
+  color: #ffffff;
+  border-radius: 16px;
 }
